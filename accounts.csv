@@ -1,5 +1,5 @@
 id;auth_data;proxy_data;proxy_ip
-1;auth_data1;data_1;ip1
+1;auth_data1;user:pass@host:port;ip1
 2;auth_data2;data_2;ip2
 3;auth_data3;data_3;ip3
 4;auth_data4;data_4;ip4
