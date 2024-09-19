@@ -6,7 +6,6 @@ from typing import List, Dict
 
 from logger import logger
 from models import MyTable, engine
-# from bot import bot
 
 
 url_getusermining = 'https://gm.pocketfi.org/mining/getUserMining'
@@ -147,10 +146,8 @@ def main():
     count = 1
     while True:
         for user in users:
-            process_user(user.id, user.auth_data, user.proxy_ip)
+            process_user(user.id, user.auth_data, user.proxy_data)
             time.sleep(90)
-        # message = f'Закончил {count} итерацию!'
-        # send_message(bot, message)
         count += 1
 
 

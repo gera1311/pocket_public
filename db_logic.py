@@ -18,8 +18,8 @@ for index, row in df.iterrows():
     entry = MyTable(
         id=row['id'],
         auth_data=row['auth_data'],
-        proxy_ip=row['proxy_ip'],
-        ip=row['ip']
+        proxy_ip=row['proxy_data'],
+        ip=row['proxy_ip']
     )
     session.add(entry)
 

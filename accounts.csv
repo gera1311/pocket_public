@@ -1,3 +1,5 @@
-id;auth_data;proxy_ip;ip
-1;query_id=secret_data;user:pass@01.02.03.04:1234;01.02.03.04
-
+id;auth_data;proxy_data;proxy_ip
+1;auth_data1;data_1;ip1
+2;auth_data1;data_2;ip2
+3;auth_data1;data_3;ip3
+4;auth_data1;data_4;ip4
