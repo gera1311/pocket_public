@@ -20,8 +20,8 @@ class MyTable(Base):
 
     id = Column(Integer, primary_key=True)
     auth_data = Column(String)
+    proxy_data = Column(String)
     proxy_ip = Column(String)
-    ip = Column(String)
 
 
 Base.metadata.create_all(engine)

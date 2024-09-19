@@ -8,7 +8,7 @@ services:
     ports:
       - "${POSTGRES_PORT}:5432"
     volumes:
-      - pocket_gera:/var/lib/postgresql/data
+      - pocket_bd:/var/lib/postgresql/data
 
 volumes:
-  pocket_gera:
+  pocket_bd:
